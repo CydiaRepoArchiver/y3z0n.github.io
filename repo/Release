@@ -1,8 +1,8 @@
-Origin: H6nry's repo
-Label: H6nry's repo
+Origin: Noctis Glases Repo
+Label: Noctis Glases Repo
 Suite: stable
 Version: 1.0
-Codename: h6nryrepo
+Codename: noctisglases
 Architectures: iphoneos-arm
 Components: main
-Description: H6nry's Cydia Repository
+Description: Noctis Glases Repo
