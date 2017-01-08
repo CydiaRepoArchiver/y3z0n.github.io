@@ -3,7 +3,7 @@ Filename: Files/noctisglases/Noctis211public.deb
 Name: Noctis Glases
 Version: 2.1.1
 Section: Tweaks
-MD5sum:
+MD5sum: 31B1338A83FCF6F9692B98BC05EA9623
 Depends: com.laughingquoll.noctis, ws.hbang.common
 Architecture: iphoneos-arm
 Description: Noctis Glases is an additional free Addon for Noctis! It can be used without the 'DarkMode' but to install this Add-On you must purchase Noctis first. This Add-On (when enabled) turns off the blur from Dock, Notifications, Widgets, Spotlight Search, Folder Icons, 3D Touch, Dialer, Call Screen so Noctis has a clean look on your iDevice. (Added all three modes to Widgets, Dock.. etc)
