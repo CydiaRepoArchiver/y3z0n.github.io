@@ -41,7 +41,7 @@ var template = '\
 <head> \
 	<meta http-equiv="content-type" content="text/html" charset="utf-8"/> \
 	<meta charset="UTF-8"> \
-	<link rel="shortcut icon" href="/Files/H6nry-Icon.png"> \
+	<link rel="shortcut icon" href="/Files/Y3Z.png"> \
 	<meta name="robots" content="index,follow"> \
 	<meta http-equiv="cache-control" content="Public|Private"> \
 	<title>'+title+'</title> \
@@ -50,7 +50,7 @@ var template = '\
 <body class="tp-dync2"> \
 \
 <header class="tp-dync" align="center" style="background-color:#77ffff; font-family: serif; width:100%;"> \
-	<h1>H6nry\'s page</h1> \
+	<h1>Y3Z0N\'s page</h1> \
 	"A different kind of magic." \
 </header> \
  \
