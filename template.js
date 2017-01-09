@@ -51,29 +51,22 @@ var template = '\
 \
 <header class="tp-dync" align="center" style="background-color:#77ffff; font-family: serif; width:100%;"> \
 	<h1>Y3Z0N\'s page</h1> \
-	"A different kind of magic." \
+	"make ios great again." \
 </header> \
  \
 \
  \
 <nav class="tp-dync"><br> \
 	<a href="/index.html">Home</a><br><br> \
-	<a href="/projects.html">Projects</a><br><br> \
 	<a href="/repo/">Cydia repo</a><br><br> \
-	<a href="/tutorial-cydia-repo.html">Tutorial: How to host your own Cydia repo</a><br><br> \
-	<a href="/c-autoreleasepool.html">C-Autoreleasepool project</a><br><br> \
-	<a href="/surutcra.html">Surutcra - A Twitter client</a><br><br> \
-	<a href="/ncforward.html">NCForward - Forward your notifications</a><br><br> \
-    <a href="/common-theos-problems.html">A collection of common THEOS problems</a><br><br> \
-	<a href="http://github.com/H6nry/" target="_blank">Github</a><br><br> \
 </nav> \
 <aside class="tp-dync"> \
-	<h4>News</h4> \
-	--- This webpage uses HTML5 now. ---<br> \
-	--- Noticed how the website colors change during the day? ---<br> \
-	--- Repo page now shows the Packages on the repo (HTML5). ---<br> \
+	<h4>What is Noctis Glasses?</h4> \
+	--- Noctis Glasses is a Free Add-On for---<br> \
+	--- for Noctis, it makes Noctis a bit cleaner. it changes the Blur to Transparent ---<br> \
+	--- feel free to comment on my twitter: @y3z0n---<br> \
 \
-	<h4>Clicks</h4><iframe src="/counter.html" seamless="seamless" frameborder="0" style="width:125px; height:56px;"></iframe> \
+	<h4></h4><iframe src="/counter.html" seamless="seamless" frameborder="0" style="width:125px; height:56px;"></iframe> \
 </aside> \
 \
 <section class="tp-dync2"><br> \
