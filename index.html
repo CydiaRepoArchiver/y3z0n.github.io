@@ -2,100 +2,296 @@
 <html lang="en">
 
 <head>
-	<!-- 1.0 meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<meta name="description" content="Animated 404 Error Page">
-	<meta name="author" content="rakesh535">
-	<meta name="keywords" content="404, css3, html5, animated, animated bubble, template">
-	<!-- 2.0 title -->
-	<title>NOCTIS | GLASSES</title>
-	<!-- 3.0 CSS IMPORT -->
-	<!-- CSS IMPORT FOR PLUGIN -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/js/wow/css/libs/animate.css" rel="stylesheet">
-	<link href="assets/js/wordsrotator/jquery.wordrotator.min.css" rel="stylesheet">
-	<!-- CSS IMPORT FOR FONT -->
-	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href='assets/fonts/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
-	<!-- CSS IMPORT FOR MAIN STYLE -->
-	<link href="assets/css/style.css" rel="stylesheet">
-	<!-- support HTML5 elements and media queries for IE9 -->
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bootstrap Responsive Template</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+    	<link rel="shortcut icon" href="img/icons/favicon.ico">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/flexslider.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/layerslider.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<!-- 4.0 FAVICON -->
-	<link rel="shortcut icon" href="assets/img/favicon.png">
+
 </head>
 
-<body>
-	<!-- 6.0 wrapper -->
-	<div class="wrapper" id="wrapper-large">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<!-- 6.1 SPIRIT BUBBLES CANVAS -->
-					<canvas class="spirit-bubbles" id="canvas"></canvas>
-					<!-- end SPIRIT BUBBLES CANVAS -->
+<body id="page-top" class="index">
 
-					<!-- 6.2 HOME & RETURN BUTTONS -->
-					<ul class="return-btn center-block">
-						<li>
-							<a href="http://store.laughingquoll.net/" class="wow slideInLeft">Buy Noctis for 2$ </a>
-						</li>
-						<li>
-							<a href="https://cydia.saurik.com/api/share#?source=http://y3z0n.github.io/repo/" class="wow slideInRight">Download Glasses</a>
-						</li>
-					</ul>
-					<!-- end HOME & RETURN BUTTONS -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">NOCTIS | GLASSES</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll hvrNav-stat" href="#about"></a>
+                    </li>
+                                        <li class="">
+                        <a class="page-scroll hvrNav-stat" href="#team">Team</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll hvrNav-stat" href="#contact"></a>
+                    </li>                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-					<!-- 6.3 ERROR CODE -->
-					<h2><FONT SIZE=50" class="wow flipInY" data-wow-delay="2.5s">Noctis Glasses</FONT></h3><FONT SIZE="5"><h3>An Awesome MobielSubstrate Tweak</h1></FONT><h5>Noctis by @LaughingQuoll and @AppleiDesigner | Noctis Glasses by @y3z0n</h5>
-					<!-- ERROR TEXT, Change error text according to your requirement -->
-				
-					<!-- ROTATING TEXT -->
-					<!-- END ERROR CODE -->
+<!--=== Slider ===-->
+<div class="layer_slider">
+    <div id="layerslider-container-fw">        
+        <div id="layerslider" style="width: 100%; height: 550px; margin: 0px auto; ">
+            <!--First Slide-->
+            <div class="ls-layer" style="slidedirection: right; transition2d: 24,25,27,28; ">
 
-					<!-- 6.4 search-form -->
-					<form class="form-inline search-form">
-						<div class="input-group">
-						
-							<span class="input-group-btn">
-						  
-							</span>
-						</div>
-					</form>
-					<!-- end search-form -->
+                <img src="img/bg/5.jpg" class="ls-bg img-responsive" alt="Slide background">
 
-					<!-- 6.5 social-icons -->
-					<ul class="social-icons center-block">
-						<li>
-					
-							<a class="hvr-icon-wobble-vertical wow slideInRight" data-wow-delay="1.5s" href="https://twitter.com/y3z0n"><i class="fa fa-fw fa-twitter"></i></a>
-						</li>
-						<li>
-						</ul>
-					<!-- end social-icons -->
+                <img src="img/mockup/white-iphone.png" alt="Slider Image" class="ls-s-1" style=" top:110px; left: 240px; slidedirection : left; slideoutdirection : bottom; durationin : 1500; durationout : 1500; ">
 
-				</div>
-			</div>
+                <img src="img/mockup/black-iphone.png" alt="Slider image" class="ls-s-1" style=" top:60px; left: 40px; slidedirection : left; slideoutdirection : bottom; durationin : 2500; durationout : 2500; ">
+
+                <span class="ls-s-1" style=" text-transform: uppercase; line-height: 45px; font-size:35px; color:#fff; top:200px; left: 590px; slidedirection : top; slideoutdirection : bototm; durationin : 3500; durationout : 3500; ">
+                    An Awesome<br> MobileSubstrate Tweak!
+                </span>
+
+                <a class="btn-u btn-success ls-s1" href="#" style=" padding: 9px 20px; font-size:25px; top:340px; left: 590px; slidedirection : bottom; slideoutdirection : top; durationin : 3500; durationout : 3500; ">
+                    Buy Noctis 2$
+                </a>
+            </div>
+            <!--End First Slide-->
+
+            <!--Second Slide-->
+            <div class="ls-layer" style="slidedirection: top; ">
+                <img src="img/bg/5.jpg" class="ls-bg img-responsive" alt="Slide background">
+
+                <i class="icon-chevron-sign-right ls-s-1" style=" color: #fff; font-size: 24px; top:70px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 1500; durationout : 500; "></i> 
+
+                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 30px; top:100px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 500; ">
+                 Noctis
+                </span>
+
+               <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:150px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 2500; durationout : 1500; ">
+                <i class="fa fa-check"></i>
+                  A Clean UI
+                </span>
+
+                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:200px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 3500; durationout : 2500; ">
+                <i class="fa fa-check"></i>
+                    Looks great on your iDevice
+                </span>
+
+                <img src="img/mockup/white-iphone.png" alt="Slider Image" class="ls-s-1" style=" top:30px; left: 650px; slidedirection : right; slideoutdirection : bottom; durationin : 1500; durationout : 1500; ">
+            </div>
+            <!--End Second Slide-->
+
+            <!--Third Slide-->
+            <div class="ls-layer" style="slidedirection: right; transition2d: 92,93,105; ">
+                <img src="img/bg/5.jpg" class="ls-bg img-responsive" alt="Slide background">
+
+                <span class="ls-s-1" style=" color: #fff; line-height:45px; font-weight: 200; font-size: 35px; top:100px; left: 50px; slidedirection : top; slideoutdirection : bottom; durationin : 1000; durationout : 1000; ">
+                    Noctis Glasses<br> the first Add-On for Noctis
+                </span>
+
+                <a class="btn-u btn-primary ls-s-1" href="#" style=" padding: 9px 20px; font-size:25px; top:220px; left: 50px; slidedirection : bottom; slideoutdirection : bottom; durationin : 2000; durationout : 2000; border-radius:2px; border: 2px solid #00A8E0;">
+                    Download Noctis Glasses
+                </a>
+
+                <img src="img/mockup/black-iphone.png" alt="Slider Image" class="ls-s-1" style=" top:30px; left: 670px; slidedirection : right; slideoutdirection : bottom; durationin : 3000; durationout : 3000; ">
+            </div>
+            <!--End Third Slide-->
+        </div>         
+    </div>
+</div><!--/layer_slider-->
+</div>           
+        </div>       
+            </div>           
+        </div>       
+    </div><!--/row-->
+    <!-- End Service Blokcs -->
+    
+    <!-- Team Section -->
+                                                               </span>
+                            </div>                                
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-arrow">
+                        <a data-slide="prev" href="#testimonials-1" class="left carousel-control">
+                            <i class="fa fa-angle-left pull-left"></i>
+                        </a>
+                        <a data-slide="next" href="#testimonials-1" class="right carousel-control">
+                            <i class="fa fa-angle-right pull-right"></i>
+                        </a>
+                    </div>
+                </div>			</div>
 		</div>
 	</div>
-	<!-- end wrapper -->
+</section>
+    <!-- Team Section -->
+    <section id="team" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-heading wow animated pulse animated">Our Team</h2><hr />
+                    <h3 class="section-subheading text-muted wow animated pulse animated">Feel free to follow us on Twitter</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4  wow animated zoomIn animation-delay-3">
+                    <div class="team-member">
+                        <img src="img/user.jpg" class="img-responsive img-circle" alt="">
+                        <h4>@Y3Z0N</h4>
+                        <p class="text-muted">Developer of Noctis Glasses</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow animated zoomIn animation-delay-5">
+                    <div class="team-member ">
+                        <img src="img/user.jpg" class="img-responsive img-circle" alt="">
+                        <h4>@LaughingQuoll</h4>
+                        <p class="text-muted">Developer of Noctis</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow animated zoomIn animation-delay-7">
+                    <div class="team-member">
+                        <img src="img/user.jpg" class="img-responsive img-circle" alt="">
+                        <h4>@AppleiDesigner</h4>
+                        <p class="text-muted">Designer of Noctis</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <p class="large text-muted">.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+                                </div>
+                            </div>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-sm-12 text-center">	</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<!-- 7.0 javascript import -->
-	<!-- jquery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- bootstrap -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- wow -->
-	<script src="assets/js/wow/dist/wow.min.js"></script>
-	<!-- wordsrotator -->
-	<script src="assets/js/wordsrotator/jquery.wordrotator.min.js"></script>
-	<!-- main js -->
-	<script src="assets/js/main.js"></script>
+    <footer class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="copyright-header">Copyright &copy; 2015</span>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a class="twitter wow animated bounceInDown animated animation-delay-3" href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a class="facebook wow animated bounceInDown animated animation-delay-4" href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a class="linkedin wow animated bounceInDown animated animation-delay-5" href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/agency.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery-easing-1.3.js"></script>
+    <script src="js/jquery-transit-modified.js"></script>
+    <script src="js/layerslider.transitions.js"></script>
+    <script src="js/layerslider.kreaturamedia.jquery.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/wow.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        App.initSliders();
+        App.initBxSlider();
+        Index.initLayerSlider();
+    });
+</script>
+
+<script> new WOW().init();</script>
 </body>
 
 </html>
