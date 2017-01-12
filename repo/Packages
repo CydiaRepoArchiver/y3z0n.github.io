@@ -1,7 +1,7 @@
 Package: com.noctisglasesy3z.trpmod
-Filename: Files/noctisglases/com.noctisglasesy3z.trpmod_3.0.2-1_iphoneos-arm.deb
+Filename: Files/noctisglases/com.noctisglasesy3z.trpmod_3.1.0-1_iphoneos-arm.deb
 Name: Noctis Glasses
-Version: 3.0.2-1
+Version: 3.1.0-1
 Section: Tweaks
 Priority: optional
 Depends: com.laughingquoll.noctis, ws.hbang.common
@@ -10,7 +10,7 @@ Description: Noctis Glasses is an additional free Addon for Noctis! It can be us
 Homepage: https://twitter.com/y3z0n 
 Author: Y3Z0N <jasonbreezy@icloud.com>
 Maintainer: Y3Z0N <jasonbreezy@icloud.com>
-Size: 88792
-MD5sum: 31f93d0fe4afd2216e4bfb898ecca720
+Size: 88824
+MD5sum: 9ba7485e1c94982e976410ff5dd2e3f4
 
 
